@@ -1,0 +1,26 @@
+WWW ----> World Wide Web; //Its store all url
+URL -----> Uniform Resource locator;
+HTTP ----> Hyper Text Transfer Protocol;
+HTTPS --->Hyper text Transfer Protocol Secuor; // Use for transfer data secuorly clint side to server
+
+1)Explain how does the internet work in your own words?
+Ans : When we search anything into google  its heat the HTTP and then HTTP transfer this requiest into Server 
+      and server find the data from www. If its find the data then server back to transfer the data into HTTP
+      and finally HTTP transfer this data into client.
+
+2)What are the core modules of node js?
+Ans : Core module is those module its not need to require like Console.log 
+console.log is a global module and 
+fs is a non global module.
+
+3)What are absolute path and relative path ? How to define them?
+Ans : Path is location to a file and folder.
+
+absolute path: 
+             An absolute path is defined as the specifying the location of a file or directory from the 
+             root directory(/). 
+             So, absolute path is always start from '/';
+
+relative path:
+            relative path is define as the path related to the present working directory(PWD). Its Start 
+            from Current directory not never start from root directory.
