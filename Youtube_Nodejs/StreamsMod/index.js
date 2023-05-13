@@ -26,7 +26,7 @@ server.on("request",(req, res)=>{
 })
 */
 
-//Use Striming
+//Use Striming 2nd away
 server.on("request", (req, res) => {
     const rstream = fs.createReadStream("inputs.txt");
     rstream.on("data", (chunkdata) => {
@@ -43,5 +43,11 @@ server.on("request", (req, res) => {
 
 
 
+// 3rd away(Use Striming pipe() )
+
+server.on("request", (req, res) => {
+    const rstream = fs.createReadStream("input.txt");
+    rstream.pipe(res)
+})
 
 server.listen(8000, "127.0.0.1")
