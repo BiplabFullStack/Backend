@@ -18,4 +18,5 @@ const sendMail = async (req, res) => {
     })
     res.json(info)
 }
+
 module.exports = sendMail;
